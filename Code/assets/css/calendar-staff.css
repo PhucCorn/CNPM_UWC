@@ -1,0 +1,234 @@
+.header {
+    width: 100%;   
+    height: 120px;
+    position: fixed;
+}
+
+.header-background {
+    background-image: url(https://github.com/PhucCorn/img/blob/main/header_background.png?raw=true);
+    width: 100%;   
+    height: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body {
+    background-color: rgb(230, 239, 223);
+    width: 100%;
+}
+
+.body-background {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.body-background-1 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 120px;
+    background-image: url(https://github.com/PhucCorn/img/blob/main/header_background.png?raw=true);
+}
+
+.body-header {
+    width: 100%;
+    background-color: rgb(7,66,46);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.body-header--inf,
+.body-header--calendar,
+.body-header--notify,
+.body-header--Signout {
+    font-family: 'Titan One', cursive;
+    font-size: 20px;
+    color: rgb(179,205,53);
+    text-decoration: none;
+}
+
+.body-calendar {
+  align-self: center;
+  width: 95%;
+  border-color: #777;
+  border-width: 10px;
+  margin: 50px 10px 50px;
+  background-color: #fff;
+}
+
+ul {list-style-type: none;}
+
+/* Month header */
+.body-calendar--month {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  padding: 70px 25px;
+  width: 100%;
+  background: rgb(7,66,46);
+  text-align: center;
+}
+
+/* Month list */
+.body-calendar--month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.body-calendar--month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.body-calendar--month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.body-calendar--month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.prev:hover {
+  background-color: rgba(256,256,256, 0.5);
+  cursor: pointer;
+}
+
+.next:hover {
+  background-color: rgba(256,256,256, 0.5);
+  cursor: pointer;
+}
+
+/* Weekdays (Mon-Sun) */
+.body-calendar--weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.body-calendar--weekdays li {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  width: 13.6%;
+  color: #333;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.body-calendar--days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.body-calendar--days :hover {
+  background-color: #777;
+  cursor: pointer;
+}
+
+.body-calendar--days li {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #333;
+  padding: 50px;
+  font-weight: 600;
+}
+
+.body-calendar--days_uncheckout {
+  color: rgb(256, 0, 0) !important;
+}
+
+.body-calendar--days_checkout {
+  color: rgb(179,205,53) !important;
+}
+
+/* Highlight the "current" day */
+.body-calendar--days li .body-calendar--days_active {
+  padding: 5px;
+  background: rgb(7,66,46);
+}
+
+.body-calendar--days--mission {
+  color: white !important;
+  text-decoration: none;
+}
+
+.footer {
+    background-color: rgb(7,66,46);
+    background-image: radial-gradient(farthest-side at bottom left, rgb(5, 93, 81), transparent 900px), radial-gradient(farthest-side at bottom right, rgb(0, 145, 80), transparent 1000px);
+    width: 100%;
+    height: 230px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-description {
+    height: 100%;
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo-uwc {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.footer-logo--text {
+    font-size: 50px;
+    margin: 0 0 !important;
+}
+
+.footer-logo-create {
+    font-size: large;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    justify-content: space-around;
+}
+
+.footer-contact-header {
+    margin-bottom: 10px;
+}
+
+.footer-contact-header--text {
+    font-size: 30px;
+    margin: 0 0 !important;
+    font-weight: bold;
+}
+
+.footer-contact-gmail {
+    font-size: 15px;
+    font-weight: 100;
+}

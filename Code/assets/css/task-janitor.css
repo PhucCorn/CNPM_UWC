@@ -1,0 +1,218 @@
+.header {
+    width: 100%;   
+    height: 120px;
+    position: fixed;
+}
+
+.header-background {
+    background-image: url(https://github.com/PhucCorn/img/blob/main/header_background.png?raw=true);
+    width: 100%;   
+    height: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body {
+    background-color: rgb(230, 239, 223);
+    width: 100%;
+}
+
+.body-background {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.body-background-1 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 120px;
+    background-image: url(https://github.com/PhucCorn/img/blob/main/header_background.png?raw=true);
+}
+
+.body-header {
+    width: 100%;
+    background-color: rgb(7,66,46);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.body-header--inf,
+.body-header--calendar,
+.body-header--notify,
+.body-header--Signout {
+    font-family: 'Titan One', cursive;
+    font-size: 20px;
+    color: rgb(179,205,53);
+    text-decoration: none;
+}
+
+.body-check {
+    border-radius: 10px;
+    align-self: center;
+    width: 95%;
+    background-color: #fff;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-check--day {
+    margin: 10px 20px;
+    color: rgb(5, 93, 81);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.body-check--button {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    width: 300px;
+    height: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-self: center;
+    margin-right: 15px;
+}
+
+.body-check--button :hover {
+    color: #999;
+    background-color: rgb(179,205,53);
+}
+
+.body-check--button :active {
+    color: #fff;
+    background-color: #666;
+}
+
+.body-check_checkin,
+.body-check_checkout {
+    color: #fff;
+    background-color: rgb(5, 93, 81);
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.body-content {
+    border-radius: 10px;
+    align-self: center;
+    width: 95%;
+    background-color: #fff;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.body-content--team,
+.body-content--MCP,
+.body-content--vehice,
+.body-content--route,
+.body-content--time {
+    margin-left: 15px;
+    color: rgb(5, 93, 81);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+}
+
+.body-content--team-title,
+.body-content--MCP-title,
+.body-content--vehicle-title,
+.body-content--route-title,
+.body-content--time-title {
+    font-weight: 800 !important;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.body-content--team__text,
+.body-content--MCP__text,
+.body-content--vehicle__text,
+.body-content--route__text,
+.body-content--time__text {
+    align-self: center;
+    text-decoration: none;
+    color: #666;
+    cursor: pointer;
+}
+
+.body-content--vehicle__text {
+    margin-right: 2px;
+}
+
+.footer {
+    background-color: rgb(7,66,46);
+    background-image: radial-gradient(farthest-side at bottom left, rgb(5, 93, 81), transparent 900px), radial-gradient(farthest-side at bottom right, rgb(0, 145, 80), transparent 1000px);
+    width: 100%;
+    height: 230px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-description {
+    height: 100%;
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo-uwc {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.footer-logo--text {
+    font-size: 50px;
+    margin: 0 0 !important;
+}
+
+.footer-logo-create {
+    font-size: large;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    justify-content: space-around;
+}
+
+.footer-contact-header {
+    margin-bottom: 10px;
+}
+
+.footer-contact-header--text {
+    font-size: 30px;
+    margin: 0 0 !important;
+    font-weight: bold;
+}
+
+.footer-contact-gmail {
+    font-size: 15px;
+    font-weight: 100;
+}

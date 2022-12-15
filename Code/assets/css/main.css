@@ -1,0 +1,209 @@
+.header {
+    width: 100%;   
+    height: 120px;
+    position: fixed;
+}
+
+.header-background {
+    background-image: url(https://github.com/PhucCorn/img/blob/main/header_background.png?raw=true);
+    width: 100%;   
+    height: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body {
+    background-color: rgb(230, 239, 223);
+    width: 100%;
+    height: 100%;
+}
+
+.body-background {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.body-background-1 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 120px;
+    background-image: url(https://github.com/PhucCorn/img/blob/main/header_background.png?raw=true);
+}
+
+.body-background-2 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 500px;
+    background-image: url(/assets/imgs/1x/background2test.png);
+}
+
+.body-background-3 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 500px;
+    background-image: url(/assets/imgs/1x/background3test.png);
+}
+
+.body-background-4 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 500px;
+    background-image: url(/assets/imgs/1x/background4test.png);
+    margin-top: 60px;
+}
+
+.body-background-5 {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
+    width: 100%;
+    height: 500px;
+    background-image: url(/assets/imgs/1x/background5test.png);
+    margin-top: 50px;
+}
+.body-login {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.body-login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.body-login-title {
+    color: rgb(137, 183, 100);
+    font-family: 'Titan One', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 55px;
+}
+
+.body-login-type {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.body-login-cj {
+    background-color: transparent;
+    font-family: 'Titan One', cursive;
+    color: rgb(67,124,91);
+    font-size: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.body-login-bo {
+    background-color: transparent;
+    font-family: 'Titan One', cursive;
+    color: rgb(67,124,91);
+    font-size: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.body-login-cj,
+.body-login-bo:hover {
+
+}
+
+.body-login-register {
+    display: flex;
+    justify-content: center;
+}
+
+.body-login-register-question {
+    margin-top: 20px;
+}
+
+.body-login-register--text {
+    color: rgb(137, 183, 100);
+    font-family: 'Titan One', cursive;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.footer {
+    background-color: rgb(7,66,46);
+    background-image: radial-gradient(farthest-side at bottom left, rgb(5, 93, 81), transparent 900px), radial-gradient(farthest-side at bottom right, rgb(0, 145, 80), transparent 1000px);
+    width: 100%;
+    height: 230px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-description {
+    height: 100%;
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo-uwc {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.footer-logo--text {
+    font-size: 50px;
+    margin: 0 0 !important;
+}
+
+.footer-logo-create {
+    font-size: large;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    justify-content: space-around;
+}
+
+.footer-contact-header {
+    margin-bottom: 10px;
+}
+
+.footer-contact-header--text {
+    font-size: 30px;
+    margin: 0 0 !important;
+    font-weight: bold;
+}
+
+.footer-contact-gmail {
+    font-size: 15px;
+    font-weight: 100;
+}
